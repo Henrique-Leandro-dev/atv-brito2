@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 1770px;
+    background-image: url(background.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+header {
+    height: 200px;
+    font-family: panton,sans-serif;
+}
+
+.container-grid {
+    width: 1200px;
+    height: 256px;
+    margin: auto;
+}
+
+.topo {
+    
+    height: 100%;
+    display: flex;
+    align-items: center;
+ 
+}
+
+.topo nav {
+    width: 990px;
+
+}
+
+.menu {
+    height: 200px;
+    padding-left: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.menu a {
+    width: 200px;
+    color: #d4ed9d;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-decoration:none;   
+}
+
+.menu img{
+    margin-top: 100px;
+    height: 150px;
+    width: 150px;
+}
+
+.barras {
+    height: 50px;
+    width: 84px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 256px;
+    width: 183px;
+    align-items: center;
+}
+
+
+.login{
+
+    width: 100%;
+    max-width: 400px; 
+    padding-top: 40px;
+
+}
+
+.login h1 {
+    width: 332px;
+    height: 150px;
+    padding-left: 5%;
+    padding-top: 20%;
+    color: #d4ed9d;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 75px;
+}
+
+
+.campo{
+    padding-top: 23%;
+    padding-right: 24%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+    
+    
+}
+
+.campo img{
+    padding-left: 18px;  
+}
+
+.campo input{
+    height: 45px;
+    background-image: url(background.svg);
+    border-bottom: solid 6px greenyellow; 
+    padding-right: 60px;
+    margin-top: 5px;
+    color: #d4ed9d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;  
+}
+
+.campo ::placeholder{
+    padding-left: 5px;
+    color: #d4ed9d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+.botao{
+    margin-top: 500px;
+    margin-left: 32.5%;
+}
+
+
+
+
+
+
+
